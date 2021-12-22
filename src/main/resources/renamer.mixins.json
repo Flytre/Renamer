@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.flytre.renamer.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": ["TextVisitFactoryMixin", "ChatMessageC2SPacketMixin", "ClientPlayNetworkHandlerMixin", "CommandSuggestorMixin", "PlayerListHudMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
